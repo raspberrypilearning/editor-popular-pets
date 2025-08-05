@@ -1,4 +1,4 @@
-## Introduction
+## What you will do
 
 In this project you create pie charts and bar graphs from data that you collect from members of your Code Club.
 

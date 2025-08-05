@@ -17,8 +17,7 @@ software: python
 version: 3
 last_tested: 2017-01-01
 steps:
-- title: Introduction
-- title: What you will need
+- title: What you will do
 - title: Create a Pie Chart
 - title: 'Challenge: Create your own bar chart'
   challenge: true
