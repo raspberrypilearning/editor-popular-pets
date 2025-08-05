@@ -1,0 +1,4 @@
+name: 'Popular Pets Complete'
+identifier: 'editor-popular-pets-complete'
+type: 'python'
+build: true
