@@ -1,0 +1,4 @@
+name: 'Popular Pets Starter'
+identifier: 'editor-popular-pets-starter'
+type: 'python'
+build: true
