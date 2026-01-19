@@ -1,25 +1,41 @@
---- challenge ---
+<h2 class="c-project-heading--task">Build and test - Make a pie chart from a file</h2>
 
-## Challenge: Create your own bar chart
+--- task ---
+Read the data from <code>pets.txt</code> and use it to build a pie chart.
+--- /task ---
 
-You can create bar charts in a similar way. Just use `barchart = pygal.Bar()` to create a new barchart, and then add data and render in the same way as for a pie chart.
+<div class="c-project-code">
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 1
+line_highlights: 1-11
+---
+import pygal  # Create charts in Python
 
-Collect data from your Code Club members to create your own bar graph.
+pets_chart = pygal.Pie(title='Popular pets')  # Set up a pie chart with a title
 
-Make sure that you choose a topic that everyone will know about!
+with open('pets.txt', 'r') as file:  # Open the data file
+    for line in file.read().splitlines():  # Read each line without newline characters
+        if line:  # Skip empty lines
+            label, value = line.split(': ')  # Split into label and value
+            pets_chart.add(label, int(value))  # Add one slice to the chart
 
-Here are some ideas:
+pets_chart.render()  # Render the chart
 
-+ What is your favourite sport?
-+ What is your favourite ice cream flavour?
-+ How do you get to school?
-+ What month is your birthday?
-+ Do you play Minecraft? (yes/no)
+--- /code ---
+</div>
 
-Don't ask questions that give personal data such as where people live. Ask your club leader if you're not sure.
+--- task ---
+**Test:** Click **Run**.
 
-Examples:
+A pie chart should be generated using the data from <code>pets.txt</code>.
+--- /task ---
 
-![screenshot](images/pets-bar-examples.png)
-
---- /challenge ---
+<div class="c-project-output">
+<pre><div class="c-project-output">
+  <img src="images/pets-add-all.png"
+       alt="A pie chart showing multiple types of pets."></pre>
+</div>
