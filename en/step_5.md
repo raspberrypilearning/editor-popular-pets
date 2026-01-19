@@ -8,12 +8,11 @@ Think about which chart makes comparisons easier.
 
 ![screenshot](images/pets-pn.png)
 ![screenshot](images/pets-pn-bar.png)
+--- /task ---
 
----
 
 --- task ---
 Create **your own bar graph** using a new question.
---- /task ---
 
 Choose a topic everyone will understand.  
 Collect the results, update <code>pets.txt</code> (or create a new file), and generate a bar chart.
