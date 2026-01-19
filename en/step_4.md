@@ -42,7 +42,7 @@ You should see a bar graph created from the same data.
 --- /task ---
 
 <div class="c-project-output">
-<pre><div class="c-project-output">
+<pre>
   <img src="images/pets-finished.png"
        alt="A bar graph showing multiple types of pets."></pre>
 </div>

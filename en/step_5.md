@@ -2,7 +2,6 @@
 
 --- task ---
 Create **both** a pie chart and a bar graph from the **same data file**.
---- /task ---
 
 Use the data in <code>pets.txt</code> and display it in two different ways.  
 Think about which chart makes comparisons easier.
@@ -31,11 +30,10 @@ Ask your club leader if you’re unsure.
 
 ![screenshot](images/pets-bar-examples.png)
 
----
+--- /task ---
 
 --- task ---
 Create a **new chart from a different data file**.
---- /task ---
 
 Add a new <code>.txt</code> file and use it to build a pie chart or bar graph. Some example files have been included for you: <code>butterflies.txt</code> and <code>piratesninjas.txt</code>
 
@@ -55,11 +53,10 @@ Add a new <code>.txt</code> file and use it to build a pie chart or bar graph. S
 
 ![screenshot](images/pets-butterflies.png)
 
----
+--- /task ---
 
 --- task ---
 Let the user **choose** which chart to see.
---- /task ---
 
 Ask the user whether they want a **pie chart** or a **bar graph**, then show the chart they choose.
 
@@ -70,3 +67,4 @@ Ask the user whether they want a **pie chart** or a **bar graph**, then show the
 - Use <code>input()</code> to ask the question
 - Use <code>if</code> / <code>else</code> to decide which chart to render
 </div>
+--- /task ---

@@ -35,7 +35,7 @@ A pie chart should be generated using the data from <code>pets.txt</code>.
 --- /task ---
 
 <div class="c-project-output">
-<pre><div class="c-project-output">
+<pre>
   <img src="images/pets-add-all.png"
        alt="A pie chart showing multiple types of pets."></pre>
 </div>
