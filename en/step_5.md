@@ -1,21 +1,10 @@
 <h2 class="c-project-heading--task">Challenges: Explore more charts</h2>
 
 --- task ---
-Create **both** a pie chart and a bar graph from the **same data file**.
+Create **your own bar graph** using a new data set:
 
-Use the data in <code>pets.txt</code> and display it in two different ways.  
-Think about which chart makes comparisons easier.
-
-![screenshot](images/pets-pn.png)
-![screenshot](images/pets-pn-bar.png)
---- /task ---
-
-
---- task ---
-Create **your own bar graph** using a new question.
-
-Choose a topic everyone will understand.  
-Collect the results, update <code>pets.txt</code> (or create a new file), and generate a bar chart.
+1. Choose a topic everyone will understand.  
+2. Collect the results, update <code>pets.txt</code> (or create a new file), and generate a bar or pie chart.
 
 Ideas:
 - Favourite sport  
@@ -32,7 +21,7 @@ Ask your club leader if you’re unsure.
 --- /task ---
 
 --- task ---
-Create a **new chart from a different data file**.
+Create a **new chart from a different data file**:
 
 Add a new <code>.txt</code> file and use it to build a pie chart or bar graph. Some example files have been included for you: <code>butterflies.txt</code> and <code>piratesninjas.txt</code>
 
@@ -55,7 +44,7 @@ Add a new <code>.txt</code> file and use it to build a pie chart or bar graph. S
 --- /task ---
 
 --- task ---
-Let the user **choose** which chart to see.
+Let the user **choose** which chart to see:
 
 Ask the user whether they want a **pie chart** or a **bar graph**, then show the chart they choose.
 
