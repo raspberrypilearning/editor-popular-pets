@@ -11,7 +11,7 @@ language: python
 filename: main.py
 line_numbers: true
 line_number_start: 1
-line_highlights: 1-11
+line_highlights: 5-11
 ---
 import pygal  # Create charts in Python
 
@@ -21,7 +21,7 @@ with open('pets.txt', 'r') as file:  # Open the data file
     for line in file.read().splitlines():  # Read each line without newline characters
         if line:  # Skip empty lines
             label, value = line.split(': ')  # Split into label and value
-            pets_chart.add(label, int(value))  # Add one slice to the chart
+            pets_chart.add(label, int(value))  # Add current slice to the chart
 
 pets_chart.render()  # Render the chart
 

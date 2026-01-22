@@ -1,7 +1,7 @@
 <h2 class="c-project-heading--task">Challenges: Explore more charts</h2>
 
 --- task ---
-Create **your own bar graph** using a new data set:
+Create **your own graph** using a new data set:
 
 1. Choose a topic everyone will understand.  
 2. Collect the results, update <code>pets.txt</code> (or create a new file), and generate a bar or pie chart.
@@ -15,8 +15,6 @@ Ideas:
 
 Don’t collect personal data (for example, where people live).  
 Ask your club leader if you’re unsure.
-
-![screenshot](images/pets-bar-examples.png)
 
 --- /task ---
 
@@ -38,8 +36,6 @@ Add a new <code>.txt</code> file and use it to build a pie chart or bar graph. S
 - To allow spaces in labels, use this format in your file: <pre>Red Admiral: 6</pre>, then split each line using: <code>line.split(': ')</code>
 
 </div>
-
-![screenshot](images/pets-butterflies.png)
 
 --- /task ---
 

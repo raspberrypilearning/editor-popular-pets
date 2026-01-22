@@ -28,7 +28,7 @@ with open('pets.txt', 'r') as file:
             pets_chart.add(label, int(value))
             pets_bars.add(label, int(value))  # Add data to the bar chart
 
-# pets_chart.render()   # Putting a hashtag at the beginning of a line of code will skip it when the code is run
+# pets_chart.render()   # Comment this line to skip it when the code runs
 pets_bars.render()  # Render a bar chart instead
 
 --- /code ---

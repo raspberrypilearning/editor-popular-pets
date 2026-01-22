@@ -1,7 +1,7 @@
 <h2 class="c-project-heading--task">What you will make</h2>
 
 --- task ---
-Create a pie chart that shows the most popular pets, using data stored in a file.
+Create charts that show the most popular pets, using data stored in a file.
 --- /task ---
 
 You will use Python to read survey results from a text file and turn them into a pie chart.

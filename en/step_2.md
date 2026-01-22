@@ -26,9 +26,19 @@ Snake: 1
 </div>
 
 --- task ---
-**Test:** Open <code>pets.txt</code> in the editor.
+**Test:** Open <code>pets.txt</code> in the editor by clicking the `files` button on the left:
+
+![](images/files-tab.png)
 
 Check that:
 - each line uses the format <code>Label: number</code>
 - the number is a whole number
+--- /task ---
+
+--- task ---
+
+When you are done, come back to the instructions by clicking the `instructions` button on the left:
+
+![](images/code-tab.png)
+
 --- /task ---
