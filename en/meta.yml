@@ -16,16 +16,17 @@ hardware: ''
 software: python
 version: 3
 last_tested: 2017-01-01
+landing: true
 steps:
-- title: What you will do
 - title: Create a Pie Chart
-- title: Create a bar chart
-  challenge: true
-- title: Read data from a file
+- title: 'Challenge: Create your own bar chart'
   completion:
   - engaged
+- title: Read data from a file
+  completion:
   - internal
-- title: 'Challenge - More charts and graphs!'
-  challenge: true
+- title: 'Challenge: Create a new chart from a file'
   completion:
   - external
+- title: 'Challenge: More charts and graphs!'
+  challenge: true

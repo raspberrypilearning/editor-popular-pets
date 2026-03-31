@@ -1,44 +1,25 @@
-<h2 class="c-project-heading--task">Explore the data file</h2>
+--- challenge ---
 
---- task ---
-Look at the pet survey data stored in the file <code>pets.txt</code>.
-![desc](images/pets-data.png)
---- /task ---
+## Challenge: Create your own bar chart
 
-The file has already been added to your project.  
-You can open it in the editor and change the numbers if you want to use different results.
+You can create bar charts in a similar way. Just use `barchart = pygal.Bar()` to create a new barchart, and then add data and render in the same way as for a pie chart.
 
-<div class="c-project-code">
---- code ---
----
-language: text
-filename: pets.txt
-line_numbers: true
-line_number_start: 1
-line_highlights: 1-5
----
-Dog: 6
-Cat: 4
-Hamster: 3
-Fish: 2
-Snake: 1
---- /code ---
-</div>
+Collect data from your Code Club members to create your own bar graph.
 
---- task ---
-**Test:** Open <code>pets.txt</code> in the editor by clicking the `files` button on the left:
+Make sure that you choose a topic that everyone will know about!
 
-![](images/files-tab.png)
+Here are some ideas:
 
-Check that:
-- each line uses the format <code>Label: number</code>
-- the number is a whole number
---- /task ---
++ What is your favourite sport?
++ What is your favourite ice cream flavour?
++ How do you get to school?
++ What month is your birthday?
++ Do you play Minecraft? (yes/no)
 
---- task ---
+Don't ask questions that give personal data such as where people live. Ask your club leader if you're not sure.
 
-When you are done, come back to the instructions by clicking the `instructions` button on the left:
+Examples:
 
-![](images/code-tab.png)
+![screenshot](images/pets-bar-examples.png)
 
---- /task ---
+--- /challenge ---
