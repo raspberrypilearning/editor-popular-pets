@@ -1,8 +1,10 @@
---- challenge ---
+<h2 class="c-project-heading--task">Challenge: Create your own bar chart</h2>
 
-## Challenge: Create your own bar chart
+You can create bar charts in a similar way.
 
-You can create bar charts in a similar way. Just use `barchart = pygal.Bar()` to create a new barchart, and then add data and render in the same way as for a pie chart.
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
+
+Just use `barchart = pygal.Bar()` to create a new barchart, and then add data and render in the same way as for a pie chart.
 
 Collect data from your Code Club members to create your own bar graph.
 
@@ -20,6 +22,10 @@ Don't ask questions that give personal data such as where people live. Ask your 
 
 Examples:
 
+<div class="c-project-output">
 ![screenshot](images/pets-bar-examples.png)
+</div>
 
---- /challenge ---
+## Now run your code
+
+Your bar chart should show the survey results you collected.

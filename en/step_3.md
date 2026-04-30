@@ -1,19 +1,23 @@
-## Read data from a file
+<h2 class="c-project-heading--task">Read data from a file</h2>
 
 It's useful to be able to store data in a file rather than having to include it in your code.
 
-### Step 1
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
+
+## Step 1
 
 Add a new file to your project and call it `pets.txt`:
 
+<div class="c-project-output">
 ![screenshot](images/pets-file.png)
 ![shows the dialogue box for naming a file](images/name-file.png)
+</div>
 
-
-### Step 2
+## Step 2
 
 Now add data to the file. You can use the favourite pets data that you collected or the example data.
 
+<div class="c-project-code">
 --- code ---
 ---
 language: python
@@ -28,12 +32,13 @@ Hamster 3
 Fish 2
 Snake 1
 --- /code ---
+</div>
 
-
-### Step 3
+## Step 3
 
 Switch back to `main.py` and comment out the lines that render (display) charts and graphs (so that they aren't displayed):
 
+<div class="c-project-code">
 --- code ---
 ---
 language: python
@@ -53,12 +58,13 @@ barchart.add('Fish', 2)
 barchart.add('Snake', 1)
 #barchart.render()
 --- /code ---
+</div>
 
-
-### Step 4
+## Step 4
 
 Now read the data from the file.
 
+<div class="c-project-code">
 --- code ---
 ---
 language: python
@@ -74,14 +80,15 @@ for line in file.read().splitlines():
 
 file.close()
 --- /code ---
+</div>
 
 The `for` loop will loop over the lines in the file. `splitlines()` removes the newline character from the end of the line as you don't want that.
 
-
-### Step 5
+## Step 5
 
 Each line needs to be separated into a label and a value:
 
+<div class="c-project-code">
 --- code ---
 ---
 language: python
@@ -94,6 +101,7 @@ for line in file.read().splitlines():
         label, value = line.split(' ')
         print(label, value)
 --- /code ---
+</div>
 
 This will split the line at the spaces so don't include spaces in the labels. (You can add support for spaces in labels later.)
 
@@ -101,16 +109,19 @@ This will split the line at the spaces so don't include spaces in the labels. (Y
 
 You might get an error like this:
 
+<div class="c-project-output">
 ![screenshot](images/pets-error.png)
+</div>
 
 This happens if you have an empty line at the end of your file.
 
 You can fix the error by only getting the label and value if the line isn't empty.
 
-### Step 6
+## Step 6
 
 Indent the code inside your `for` loop and add the code `if line:` above it:
 
+<div class="c-project-code">
 --- code ---
 ---
 language: python
@@ -124,12 +135,13 @@ for line in file.read().splitlines():
         label, value = line.split(' ')
         print(label, value)
 --- /code ---
+</div>
 
-
-### Step 7
+## Step 7
 
 Remove the `print(label, value)` line now everything is working, and add the label and value to a new Pie Chart and render it:
 
+<div class="c-project-code">
 --- code ---
 ---
 language: python
@@ -151,9 +163,12 @@ file.close
 
 piechart2.render()
 --- /code ---
+</div>
 
 Note that `add` expects the value to be a number, `int(value)` turns the value from a string into an integer.
 
 If you wanted to use decimals such as 3.5 (floating point numbers) you could use `float(value)` instead.
 
+## Now run your code
 
+You should see a chart created from the data in `pets.txt`.
