@@ -2,8 +2,6 @@
 
 You can create bar charts in a similar way.
 
-<h2 class="c-project-heading--explainer">Follow these instructions</h2>
-
 Just use `barchart = pygal.Bar()` to create a new barchart, and then add data and render in the same way as for a pie chart.
 
 Collect data from your Code Club members to create your own bar graph.
