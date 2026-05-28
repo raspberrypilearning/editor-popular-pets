@@ -2,8 +2,6 @@
 
 It's useful to be able to store data in a file rather than having to include it in your code.
 
-<h2 class="c-project-heading--explainer">Follow these instructions</h2>
-
 ## Step 1
 
 Add a new file to your project and call it `pets.txt`:
