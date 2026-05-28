@@ -2,8 +2,6 @@
 
 Pie Charts are useful way of showing data.
 
-<h2 class="c-project-heading--explainer">Follow these instructions</h2>
-
 ## Step 1
 
 Let's do a survey of favourite pets in your Code Club and then present the data as a Pie Chart.

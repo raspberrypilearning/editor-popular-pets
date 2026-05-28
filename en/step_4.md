@@ -2,7 +2,6 @@
 
 Can you create a new bar graph or pie chart from data in a file?
 
-<h2 class="c-project-heading--explainer">Follow these instructions</h2>
 
 You'll need to create a new .txt file.
 
