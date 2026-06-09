@@ -1,25 +1,25 @@
 <h2 class="c-project-heading--task">Read data from a file</h2>
 
-It's useful to be able to store data in a file rather than having to include it in your code.
+It is useful to be able to store data in a file, rather than having to include it in your code.
 
 ## Step 1
 
 Add a new file to your project and call it `pets.txt`:
 
 <div class="c-project-output">
-![screenshot](images/pets-file.png)
-![shows the dialogue box for naming a file](images/name-file.png)
+![The 'Add file' button highlighted in the 'Project files' menu.](images/pets-file.png)
+![The 'Name your file' dialogue box with pets.txt in the text field.](images/name-file.png)
 </div>
 
 ## Step 2
 
-Now add data to the file. You can use the favourite pets data that you collected or the example data.
+Now, add data to the file. You can use the favourite pets data that you collected or the example data here.
 
 <div class="c-project-code">
 --- code ---
 ---
 language: python
-filename: animals.txt
+filename: pets.txt
 line_numbers: true
 line_number_start: 
 line_highlights: 
@@ -34,7 +34,7 @@ Snake 1
 
 ## Step 3
 
-Switch back to `main.py` and comment out the lines that render (display) charts and graphs (so that they aren't displayed):
+Switch back to `main.py` and comment out the lines that render (display) charts (so that they are not displayed):
 
 <div class="c-project-code">
 --- code ---
@@ -60,7 +60,7 @@ barchart.add('Snake', 1)
 
 ## Step 4
 
-Now read the data from the file.
+Now, read the data from the file.
 
 <div class="c-project-code">
 --- code ---
@@ -80,11 +80,11 @@ file.close()
 --- /code ---
 </div>
 
-The `for` loop will loop over the lines in the file. `splitlines()` removes the newline character from the end of the line as you don't want that.
+The `for` loop will loop over the lines in the file. `splitlines()` will remove the newline character from the end of each line, as you do not want those.
 
 ## Step 5
 
-Each line needs to be separated into a label and a value:
+You need to separate each line into a label and a value:
 
 <div class="c-project-code">
 --- code ---
@@ -101,19 +101,17 @@ for line in file.read().splitlines():
 --- /code ---
 </div>
 
-This will split the line at the spaces so don't include spaces in the labels. (You can add support for spaces in labels later.)
-
-
+This will split the line at the spaces, so do not include spaces in the labels. (You can add support for spaces in labels later.)
 
 You might get an error like this:
 
 <div class="c-project-output">
-![screenshot](images/pets-error.png)
+![An error message in the output area: "ValueError: not enough values to unpack (expected at least 2, got 1) on line 22 of main.py".](images/pets-error.png)
 </div>
 
 This happens if you have an empty line at the end of your file.
 
-You can fix the error by only getting the label and value if the line isn't empty.
+You can fix the error by only getting the label and value if the line is not empty.
 
 ## Step 6
 
@@ -137,7 +135,7 @@ for line in file.read().splitlines():
 
 ## Step 7
 
-Remove the `print(label, value)` line now everything is working, and add the label and value to a new Pie Chart and render it:
+Now that everything is working, remove the `print(label, value)` line, and add the label and value to a new pie chart and render it:
 
 <div class="c-project-code">
 --- code ---
@@ -163,9 +161,9 @@ piechart2.render()
 --- /code ---
 </div>
 
-Note that `add` expects the value to be a number, `int(value)` turns the value from a string into an integer.
+Note that `add` expects the value to be a number. `int(value)` turns the value from a string into an integer.
 
-If you wanted to use decimals such as 3.5 (floating point numbers) you could use `float(value)` instead.
+If you wanted to use decimals such as 3.5 (floating-point numbers), you could use `float(value)` instead.
 
 ## Now run your code
 
