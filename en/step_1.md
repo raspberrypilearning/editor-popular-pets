@@ -1,6 +1,6 @@
 <h2 class="c-project-heading--task">Create a pie chart</h2>
 
-Pie charts are useful way of showing data. 
+Pie charts are a useful way of showing data. 
 
 You will do a survey of favourite pets in your Code Club and then present the data as a pie chart.
 
