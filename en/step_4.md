@@ -4,7 +4,13 @@ Can you create a new bar chart or pie chart from data in a file?
 
 You will need to create a new `.txt` file.
 
-**Tip**: If you want to have spaces in the labels, use `line.split(': ')` and add colons to your data file, e.g. `Red Admiral: 6`.
+### Tip
+
+<div class="c-project-callout c-project-callout--tip">
+
+If you want to have spaces in the labels, use `line.split(': ')` and add colons to your data file, e.g. `Red Admiral: 6`.
+
+</div>
 
 ## Now run your code
 
