@@ -1,32 +1,28 @@
-<h2 class="c-project-heading--task">Create a Pie Chart</h2>
+<h2 class="c-project-heading--task">Create a pie chart</h2>
 
-Pie Charts are useful way of showing data.
+Pie charts are useful way of showing data. 
+
+You will do a survey of favourite pets in your Code Club and then present the data as a pie chart.
 
 ## Step 1
-
-Let's do a survey of favourite pets in your Code Club and then present the data as a Pie Chart.
 
 Ask your club leader to help organise a survey. You could record the results on a computer connected to a projector or a whiteboard that everyone can see.
 
 Write a list of pets and make sure everyone's favourite is included.
 
-Then get everyone to vote for their favourite by putting their hand up when it gets called out. Only one vote each!
+Then, get everyone to vote for their favourite by putting their hand up when it gets called out. Only one vote each!
 
 For example:
 
 <div class="c-project-output">
-![screenshot](images/pets-favourite.png)
+![A list of pets and the number of votes for each one.](images/pets-favourite.png)
 </div>
 
 ## Step 2
 
-Open the blank [starter project](https://editor.raspberrypi.org/en/projects/popular-pets-starter)
+To create a pie chart to show the results of your survey, you will use the `pygal` library to do some of the hard work.
 
-## Step 3
-
-Create a pie chart to show the results of your survey. You'll be using the PyGal library to do some of the hard work.
-
-First import the Pygal library:
+First, import the `pygal` library:
 
 <div class="c-project-code">
 --- code ---
@@ -41,9 +37,9 @@ import pygal
 --- /code ---
 </div>
 
-## Step 4
+## Step 3
 
-Now create a Pie chart and render (display) it:
+Now, create a pie chart and render (display) it:
 
 <div class="c-project-code">
 --- code ---
@@ -63,9 +59,9 @@ piechart.render()
 
 Don't worry, it gets more interesting when you add data!
 
-## Step 5
+## Step 4
 
-Add in the data for one of the pets. Use the data that you collected.
+Add in the data that you collected for one of the pets.
 
 <div class="c-project-code">
 --- code ---
@@ -84,15 +80,15 @@ piechart.render()
 --- /code ---
 </div>
 
-There's only one piece of data so it takes up the whole pie chart.
+There is only one piece of data, so it takes up the whole pie chart.
 
 <div class="c-project-output">
-![single pie chart with only the dog entry](images/pets-add.png)
+![A pie chart with only one slice, labelled "Dog".](images/pets-add.png)
 </div>
 
-## Step 6
+## Step 5
 
-Now add the rest of the data in the same way.
+Now, add the rest of the data in the same way.
 
 For example:
 
@@ -118,12 +114,12 @@ piechart.render()
 </div>
 
 <div class="c-project-output">
-![screenshot](images/pets-add-all.png)
+![A pie chart with slices for all the types of pets.](images/pets-add-all.png)
 </div>
 
-## Step 7
+## Step 6
 
-And to finish off your chart, add a title:
+To finish your chart, add a title:
 
 <div class="c-project-code">
 --- code ---

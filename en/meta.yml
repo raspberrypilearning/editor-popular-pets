@@ -6,8 +6,8 @@ listed: false
 ingredient: false
 copyedit: false
 curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
-title: Popular Pets
-description: Create pie charts and bar graphs from data you collect.
+title: Popular pets
+description: Create pie charts and bar charts from data you collect
 original_url: https://codeclubprojects.org/en-GB/python/popular-pets
 interests: animals
 technologies: python
@@ -18,7 +18,7 @@ version: 3
 last_tested: 2017-01-01
 landing: true
 steps:
-- title: Create a Pie Chart
+- title: Create a pie chart
 - title: 'Challenge: Create your own bar chart'
   completion:
   - engaged
@@ -28,5 +28,5 @@ steps:
 - title: 'Challenge: Create a new chart from a file'
   completion:
   - external
-- title: 'Challenge: More charts and graphs!'
+- title: 'Challenge: More charts'
   challenge: true

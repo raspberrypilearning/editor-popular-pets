@@ -7,7 +7,7 @@ with open('pets.txt', 'r') as file:
     for line in file.read().splitlines():
         line = line.strip()
         if line:
-            label, value = line.split(': ')
+            label, value = line.rsplit(' ', 1)
             pets_chart.add(label, int(value))
             pets_bars.add(label, int(value))  # Add data to the bar chart
 

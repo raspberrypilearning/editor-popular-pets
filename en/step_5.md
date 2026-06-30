@@ -1,15 +1,15 @@
-<h2 class="c-project-heading--task">Challenge: More charts and graphs!</h2>
+<h2 class="c-project-heading--task">Challenge: More charts</h2>
 
 Can you create a pie chart and a bar chart from the same file?
 
 You can either use the data you collected earlier or collect some new data.
 
 <div class="c-project-output">
-![screenshot](images/pets-pn-bar.png)
+![A bar chart entitled 'Pirates vs Ninjas' with bars for pirates and ninjas.](images/pets-pn-bar.png)
 </div>
 
 <div class="c-project-output">
-![screenshot](images/pets-pn.png)
+![A pie chart entitled 'Pirates vs Ninjas' with slices for pirates and ninjas.](images/pets-pn.png)
 </div>
 
 ## Now run your code
