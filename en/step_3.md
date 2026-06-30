@@ -93,11 +93,11 @@ language: python
 filename: main.py
 line_numbers: true
 line_number_start: 21
-line_highlights: 22
+line_highlights: 22-23
 ---
 for line in file.read().splitlines():
-        label, value = line.split(' ')
-        print(label, value)
+    label, value = line.split(' ')
+    print(label, value)
 --- /code ---
 </div>
 
@@ -124,7 +124,7 @@ language: python
 filename: main.py
 line_numbers: true
 line_number_start: 21
-line_highlights: 22
+line_highlights: 22-24
 ---
 for line in file.read().splitlines():
     if line:
