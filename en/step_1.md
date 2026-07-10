@@ -1,6 +1,6 @@
-<h2 class="c-project-heading--task">Create a pie chart</h2>
+## Create a pie chart
 
-Pie charts are a useful way of showing data. 
+Pie charts are a useful way of showing data.
 
 You will do a survey of favourite pets in your Code Club and then present the data as a pie chart.
 
@@ -14,9 +14,7 @@ Then, get everyone to vote for their favourite by putting their hand up when it 
 
 For example:
 
-<div class="c-project-output">
 ![A list of pets and the number of votes for each one.](images/pets-favourite.png)
-</div>
 
 ## Step 2
 
@@ -24,38 +22,20 @@ To create a pie chart to show the results of your survey, you will use the `pyga
 
 First, import the `pygal` library:
 
-<div class="c-project-code">
---- code ---
----
-language: python
-filename: main.py
-line_numbers: true
-line_number_start: 
-line_highlights: 1
----
+```python filename="main.py" line_numbers="true" line_highlights="1"
 import pygal
---- /code ---
-</div>
+```
 
 ## Step 3
 
 Now, create a pie chart and render (display) it:
 
-<div class="c-project-code">
---- code ---
----
-language: python
-filename: main.py
-line_numbers: true
-line_number_start: 
-line_highlights: 3-4
----
+```python filename="main.py" line_numbers="true" line_highlights="3-4"
 import pygal
 
 piechart = pygal.Pie()
 piechart.render()
---- /code ---
-</div>
+```
 
 Don't worry, it gets more interesting when you add data!
 
@@ -63,28 +43,17 @@ Don't worry, it gets more interesting when you add data!
 
 Add in the data that you collected for one of the pets.
 
-<div class="c-project-code">
---- code ---
----
-language: python
-filename: main.py
-line_numbers: true
-line_number_start: 
-line_highlights: 4
----
+```python filename="main.py" line_numbers="true" line_highlights="4"
 import pygal
 
 piechart = pygal.Pie()
 piechart.add('Dog', 6)
 piechart.render()
---- /code ---
-</div>
+```
 
 There is only one piece of data, so it takes up the whole pie chart.
 
-<div class="c-project-output">
 ![A pie chart with only one slice, labelled "Dog".](images/pets-add.png)
-</div>
 
 ## Step 5
 
@@ -92,15 +61,7 @@ Now, add the rest of the data in the same way.
 
 For example:
 
-<div class="c-project-code">
---- code ---
----
-language: python
-filename: main.py
-line_numbers: true
-line_number_start: 
-line_highlights: 5-8
----
+```python filename="main.py" line_numbers="true" line_highlights="5-8"
 import pygal
 
 piechart = pygal.Pie()
@@ -110,26 +71,15 @@ piechart.add('Hamster', 3)
 piechart.add('Fish', 2)
 piechart.add('Snake', 1)
 piechart.render()
---- /code ---
-</div>
+```
 
-<div class="c-project-output">
 ![A pie chart with slices for all the types of pets.](images/pets-add-all.png)
-</div>
 
 ## Step 6
 
 To finish your chart, add a title:
 
-<div class="c-project-code">
---- code ---
----
-language: python
-filename: main.py
-line_numbers: true
-line_number_start: 
-line_highlights: 3
----
+```python filename="main.py" line_numbers="true" line_highlights="3"
 import pygal
 
 piechart = pygal.Pie(title = 'Favourite Pet')
@@ -139,8 +89,7 @@ piechart.add('Hamster', 3)
 piechart.add('Fish', 2)
 piechart.add('Snake', 1)
 piechart.render()
---- /code ---
-</div>
+```
 
 ## Now run your code
 
